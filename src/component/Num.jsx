@@ -57,14 +57,12 @@ const Num = () => {
         </div>
         </div> 
          </div>
-         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-       
+        <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <div className="w-full bg-gray-50 rounded-lg border-gray-50 border-4 dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-700 dark:border-gray-200 shadow-2xl">
-            <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+        <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
           
-            <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}></div>
-         
-         <h1 style={{ fontSize: "25px", color: "white" }}>Number Checker</h1>
+        <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+      <h1 style={{ fontSize: "25px", color: "white" }}>Number Checker</h1>
       <input
         type="text"
         value={num}
@@ -77,12 +75,16 @@ const Num = () => {
           marginBottom: "10px",
         }}
       />
-    <p style={{ fontSize: "16px", color: "white" }} >{text}</p>
-         </div>
-         </div>
-         </div>
-         </div>
-         </div>
+      <p style={{ fontSize: "16px", color: "white" }} >{text}</p>
+    </div>
+               
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+         
+         
        </section>
     )
 };
