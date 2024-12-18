@@ -1,4 +1,4 @@
-/*
+
 import React, { useState } from 'react';
 import { Player } from '@lottiefiles/react-lottie-player';
 
@@ -38,8 +38,8 @@ const Num = () => {
          <div className="container h-full px-6 mt-2">
          <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
          <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
-         <div className="outer-card-box bg-gray-50 rounded-lg border-4 shadow-2xl p-6   dark:bg-gray-700  ">
-         <div className="inner-card-box bg-gray-10 rounded-lg border-gray-500 border-4 p-4">
+         <div className="outer-card-box bg-gray-50 rounded-lg shadow-2xl p-6   dark:bg-gray-400  ">
+         <div className="inner-card-box bg-gray-10 rounded-lg border-gray-700 border-4 p-4">
          <div className="card-image mb-4 flex justify-center">
         <Player
           src="https://lottie.host/bcedae99-1765-4784-88e9-e5e8a38be0df/NZfqiTKmOY.json"
@@ -49,7 +49,7 @@ const Num = () => {
         />
       </div>
 
-      <div className="inner-card-box-content bg-white text-black shadow-lg rounded-lg p-4">
+      <div className="inner-card-box-content bg-gray-200 text-black shadow-lg rounded-lg p-4">
         <h1 className="text-xl font-bold mb-2">Number Handler</h1>
         <p className="text-sm">
         "Check Numbers: Get Next Even/Odd Values or Prompt for Positivity!"
@@ -59,11 +59,11 @@ const Num = () => {
         </div> 
          </div>
         <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-        <div className="w-full bg-gray-50 rounded-lg border-gray-50 border-4 dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-700 dark:border-gray-200 shadow-2xl">
+        <div className="w-full bg-gray-50 rounded-lg border-gray-50 border-4 dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-400 dark:border-gray-200 shadow-2xl">
         <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
           
         <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-      <h1 style={{ fontSize: "25px", color: "white" }}>Number Checker</h1>
+      <h1 style={{ fontSize: "25px", color: "black" }}>Number Checker</h1>
       <input
         type="text"
         value={num}
@@ -76,7 +76,7 @@ const Num = () => {
           marginBottom: "10px",
         }}
       />
-      <p style={{ fontSize: "16px", color: "white" }} >{text}</p>
+      <p style={{ fontSize: "16px", color: "black" }} >{text}</p>
     </div>
                
         </div>
@@ -91,9 +91,8 @@ const Num = () => {
 };
 export default Num;
 
-*/
 
-
+/*
 
 import React, { useState } from "react";
 import { Player } from "@lottiefiles/react-lottie-player";
@@ -134,7 +133,7 @@ const Num = () => {
       <div className="container h-full px-6 mt-2">
         <div className="g-6 flex h-full flex-wrap items-center justify-center lg:justify-between">
           <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
-            <div className="outer-card-box bg-gray-100 dark:bg-gray-800 rounded-lg border-4 shadow-2xl p-6">
+            <div className="outer-card-box bg-gray-100 dark:bg-gray-400 rounded-lg border-4 shadow-2xl p-6">
               <div className="inner-card-box bg-gray-200 dark:bg-gray-700 rounded-lg border-gray-500 border-4 p-4">
                 <div className="card-image mb-4 flex justify-center">
                   <Player
@@ -145,7 +144,7 @@ const Num = () => {
                   />
                 </div>
 
-                <div className="inner-card-box-content bg-white dark:bg-gray-600 text-black dark:text-white shadow-lg rounded-lg p-4">
+                <div className="inner-card-box-content bg-black dark:bg-gray-400 text-black dark:text-black shadow-lg rounded-lg p-4">
                   <h1 className="text-xl font-bold mb-2">Number Handler</h1>
                   <p className="text-sm">
                     "Check Numbers: Get Next Even/Odd Values or Prompt for
@@ -156,10 +155,10 @@ const Num = () => {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
-            <div className="w-full bg-gray-100 dark:bg-gray-800 rounded-lg border-gray-50 border-4 dark:border-gray-200 shadow-2xl">
+            <div className="w-full bg-gray-100 dark:bg-gray-400 rounded-lg border-gray-500 border-4 dark:border-gray-200 shadow-2xl">
               <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
-                  <h1 style={{ fontSize: "25px", color: "white" }}>
+                  <h1 style={{ fontSize: "25px", color: "black" }}>
                     Number Checker
                   </h1>
                   <input
@@ -174,7 +173,7 @@ const Num = () => {
                       marginBottom: "10px",
                     }}
                   />
-                  <p style={{ fontSize: "16px", color: "white" }}>{text}</p>
+                  <p style={{ fontSize: "16px", color: "black" }}>{text}</p>
                 </div>
               </div>
             </div>
@@ -186,3 +185,4 @@ const Num = () => {
 };
 
 export default Num;
+*/
